@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(60,177,164,1) 22%, rgba(67,173,155,1) 28%, rgba(75,168,145,1) 46%, rgba(152,120,52,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+#wrapper{
+    width: 100%;
+    /*background-color: black;*/
+}
+
+
+#wrapper #btn{
+    border: 0;
+    background-color: rgb(119, 190, 119);
+    color: #fff;
+    padding: 20px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+
+}
+
+
+#wrapper #btn:hover{
+    background: rgb(145, 190, 145);;
+
+}
+
+#wrapper #bar{
+    width: 60%;
+    background: rgb(226, 70, 70);
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+
+#wrapper #bar #progress{
+    height: 5px;
+    width: 0%;
+    background: #0ff;
+    transition: all .3s ease;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+
+}
+
+
+button{
+    padding: 30px 50px;
+    text-align: center;
+    font-size: larger;
+}
